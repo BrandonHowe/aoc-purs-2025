@@ -13,9 +13,12 @@ to generate this file without the comments in this block.
 { name = "my-project"
 , dependencies =
   [ "arrays"
+  , "bigints"
   , "console"
   , "effect"
+  , "either"
   , "foldable-traversable"
+  , "int64"
   , "integers"
   , "lists"
   , "maybe"
