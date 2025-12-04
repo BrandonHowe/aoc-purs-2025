@@ -17,6 +17,7 @@ to generate this file without the comments in this block.
   , "console"
   , "effect"
   , "either"
+  , "enums"
   , "foldable-traversable"
   , "int64"
   , "integers"

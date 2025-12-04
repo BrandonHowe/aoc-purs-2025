@@ -6,6 +6,7 @@ import Data.Array (index)
 import Data.Maybe (Maybe(..))
 import Day1 as Day1
 import Day2 as Day2
+import Day3 as Day3
 import Effect (Effect)
 import Effect.Console (log)
 import Node.Process (argv)
@@ -21,4 +22,5 @@ runDay :: String -> Effect Unit
 runDay = case _ of
     "day1" -> Day1.main
     "day2" -> Day2.main
+    "day3" -> Day3.main
     other -> log $ "Unknown day: " <> other
